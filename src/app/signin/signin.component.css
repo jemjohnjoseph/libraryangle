@@ -1,0 +1,25 @@
+.signin{
+    /* width: 30%;
+    height: 25%;
+    float: right;
+    border: solid black 2px;
+    padding-right: 10%; */
+    width: 30%;
+    float:right;
+    margin-top: 2%;
+    padding: 2%;
+    margin-right: 5%;
+    /* border: solid black 2px; */
+}
+.signin h6{
+    color: rgb(10, 10, 126);
+    text-shadow: cornsilk;
+    text-size-adjust: 2px;
+    
+}
+.signin h2{
+    color: rgb(0, 243, 150);
+    text-shadow: cornsilk;
+    text-size-adjust: 2px;
+    
+}

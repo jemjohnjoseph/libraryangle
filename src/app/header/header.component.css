@@ -1,0 +1,18 @@
+div{
+    width: 100%;
+    background-color: rgb(54, 4, 54);
+    height: 1%;
+    color:white;
+}
+a{
+    margin-left: 30px;
+    color: bisque;
+}
+h1{
+    color: rgb(219, 219, 207);
+    text-size-adjust: 2px;
+}
+a1{
+    float: right;
+    color: bisque;
+}

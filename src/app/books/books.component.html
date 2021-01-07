@@ -1,0 +1,39 @@
+
+   <div class="container">
+    <div class="row">
+      
+      <div class="col-md-12"> 
+        
+        <div class="panel">
+          <div class="panel-body"> 
+  
+            <!--/stories-->
+            <div class="row-main">    
+              <br>
+              <div class="col-md-2 col-sm-2 text-center">
+                <a class="story-title" href="#"><img alt="" src="../../assets/images/kalam.jpg" style="width:100px;height:100px" class="img-circle"></a>
+              </div>
+              <div class="col-md-6 col-sm-6 topic">
+                <h3>{{books.title}}</h3>
+                <div class="row">
+                  <div class="col-xs-9">
+                    <h4><span class="label label-default">{{books.author}}</span></h4><h4>
+                    <small style="font-family:courier,'new courier';" class="text-muted">"{{books.genre}}"  • 
+                      <a routerLink="/books/book>" class="text-muted">Read More</a></small>
+                    </h4></div>
+                    <form  (click)= "ondlt(author)" method="post"><button><i class="fas fa-edit fa-2x">UPDATE</i></button></form>
+                  <br>
+                  <form  (click)= "ondlt(author)" method="POST" onclick="return confirm('Are you sure to delete this Author ?');"><button>
+                    <i class="fas fa-trash fa-2x">DELETE</i>
+                  </button></form>
+                  <div class="col-xs-3"></div>
+                </div>
+                <br><br>
+              </div>
+            </div>   <hr>
+                  
+            <!--/stories-->  
+  
+       </div><!--/col-12-->
+    </div>
+  </div>
